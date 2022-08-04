@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Terminal=true
+Name=Ableton Live 11 Suite
+Icon=~/wol/$dirname/icon.png
+Exec=~/wol/$dirname/ableton.sh
