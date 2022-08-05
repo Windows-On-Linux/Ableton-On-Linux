@@ -8,10 +8,10 @@ WINEARCH=win64 WINEPREFIX=~/wol/Ableton_Live_11_Suite winetricks win10
 echo "Creating shortcut on your desktop, please don't open it until the installer finish its work"
 cp ~/wol/Downloads/"Ableton Live Suite 11"/ableton.sh ~/wol/Ableton_Live_11_Suite
 cp ~/wol/Downloads/"Ableton Live Suite 11"/icon.png ~/wol/Ableton_Live_11_Suite
-cp ~/wol/Downloads/"Ableton Live Suite 11"/ableton.desktop ~/$desktop
+cp ~/wol/Downloads/"Ableton Live Suite 11"/ableton.desktop $desktop
 cd ~/wol/Ableton_Live_11_Suite/drive_c
 echo "Downloading Ableton Live 11 Suite, this depends on your internet connection speed, Please wait..."
-wget https://cdn-downloads.ableton.com/channels/11.1.5/ableton_live_suite_11.1.5_64.zip -O ~/wine/ableton/drive_c/ableton.zip
+wget https://cdn-downloads.ableton.com/channels/11.1.5/ableton_live_suite_11.1.5_64.zip -O ~/wol/Ableton_Live_11_Suite/drive_c/ableton.zip
 mkdir ~/wine/ableton/drive_c/ableton11_installer
 echo "Unzipping Ableton Live 11 Suite..."
 unzip ~/wine/ableton/drive_c/ableton.zip -d ~/wine/ableton/drive_c/ableton11_installer
