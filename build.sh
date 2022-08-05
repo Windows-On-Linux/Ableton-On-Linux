@@ -17,3 +17,5 @@ unzip ableton_live_suite_11.1.5_64.zip
 echo "The installer is ready to run"
 WINEARCH=win64 WINEPREFIX=~/wine/ableton wine ~/wine/ableton/drive_c/ableton_live_suite_11.1.5_64/"Ableton Live 11 Suite Installer.exe"
 echo "The installer is finished"
+read -rsn1 -p"The installation is finished, Press any key to exit";echo
+exit
