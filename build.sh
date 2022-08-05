@@ -1,5 +1,5 @@
-dirname = Ableton_Live_11_Suite
-desktop = $(xdg-user-dir DESKTOP)
+dirname=Ableton_Live_11_Suite
+desktop=$(xdg-user-dir DESKTOP)
 echo "Preparing the folder..."
 mkdir ~/wol/Ableton_Live_11_Suite
 echo "Installing all dependencies for Ableton Live 11 Suite and preparing all enviroments, Please wait..."
