@@ -16,7 +16,7 @@ mkdir ~/wol/Ableton_Live_11_Suite/drive_c/ableton11_installer
 echo "Unzipping Ableton Live 11 Suite..."
 unzip ~/wol/Ableton_Live_11_Suite/drive_c/ableton.zip -d ~/wol/Ableton_Live_11_Suite/drive_c/ableton11_installer
 echo "The installer is ready to run"
-WINEARCH=win64 WINEPREFIX=~/wol/ableton wine ~/wol/Ableton_Live_11_Suite/drive_c/ableton11_installer/"Ableton Live 11 Suite Installer.exe"
+WINEARCH=win64 WINEPREFIX=~/wol/Ableton_Live_11_Suite wine ~/wol/Ableton_Live_11_Suite/drive_c/ableton11_installer/"Ableton Live 11 Suite Installer.exe"
 echo "The installer is finished"
 read -rsn1 -p"The installation is finished, Press any key to exit";echo
 exit
