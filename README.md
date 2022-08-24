@@ -11,4 +11,4 @@ Other versions of Ableton:
 - Ableton 11 Standard: https://github.com/Windows-On-Linux/AbletonStandard
 - Ableton 11 Live: https://github.com/Windows-On-Linux/Ableton-On-Linux
 
-Tested VST: Toontrack Suite(superior drummer, ezdrummer, ezkeys and ezbass), Fabfilter(Add mfc42 via winetricks), Ample Sound Suite
+Tested VST: Toontrack Suite(superior drummer, ezdrummer, ezkeys and ezbass), Fabfilter(Add mfc42 via winetricks), Ample Sound Suite, Waves(14, don't try to install drivers since it stop the installation, you need wine-staging to run central properly and install powershell: https://github.com/PietJankbal/powershell-wrapper-for-wine)
